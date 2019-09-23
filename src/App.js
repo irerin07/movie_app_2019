@@ -23,11 +23,12 @@ class App extends React.Component{
       id={movie.id} 
       year={movie.year} 
       title={movie.title} 
-      sumamry={movie.sumamry} 
+      summary={movie.summary} 
       poster={movie.medium_cover_image} 
+      genre={movie.genre}
       />
     )
-    })}
+    }
     </div>
   }
   // constructor(props){
